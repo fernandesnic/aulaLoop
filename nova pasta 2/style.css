@@ -1,0 +1,33 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+
+body {
+    background-color:  #0d1b2a;
+    color: #e0e1dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: auto;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    width: 200px;
+    height: 60px;
+    border: 10px 10px;
+}
